@@ -7,7 +7,7 @@ dataset = Dataset(shuffle=True, normalize=True, subtract_mean=True)
 #define neural network architecture
 model = create_net(dataset.example_input_shape(), dataset.num_classes())
 
-#choose training algorithm
+#choose training algorithm and prepare model for training
 compile_model(model)
 
 #train model
