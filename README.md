@@ -2,7 +2,7 @@
 Learning a shallow convolutional network example on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/).
 
 # Installation
-To install go to digits folder and type `pip install -r requirements`
+To install go to digits folder and type `pip install -r requirements.txt`
 
 # Run training and evaluation
 To run the training and evaluation just run the `python run.py`. You will see progress of the training on the training set.
